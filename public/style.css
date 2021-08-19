@@ -1,0 +1,63 @@
+*{
+    box-sizing: content-box;
+    margin:0px;
+    padding: 0px;
+    font-size: large;
+}
+.container-fluid{
+    background-color: rgb(157, 157, 216);
+    height: 70px;
+}
+.container-fluid a{
+    color: cyan;
+}
+body{
+    background: linear-gradient(rgb(55, 0, 255),white);
+}
+
+.slides{
+    
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    float: center;
+    font-size: 30px;
+    margin: 100px 100px;
+}
+.slides img{
+    filter: drop-shadow(1rem 1rem 1rem rgb(50, 164, 199));
+}
+
+html{                            
+    font-size: 62.5%;
+}
+
+.navbar li{
+    padding-left: 20px;
+}
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: aqua;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.foot{
+    margin-top: 400px;
+    padding: 30px;
+    height: 80px;
+    background-color: darkslategray;
+    color: aqua;
+    text-align: center;
+}
+.carousel-item img{
+    height: 300px;
+    width: 250px;
+    margin:0px 50px;
+}
