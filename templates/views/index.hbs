@@ -10,15 +10,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <title>Dynamic website</title>
     <style>
-     .wth{
-       height: auto;
-       background-color: teal;
-       width: 20rem;
-       text-align: center;
-     }
-     .wt{
+     
+     .wtr{
+       position:relative;
+       left:39vw;
        color: white;
        font-weight: bold;
+       background-color:rgb(113, 190, 165);
+       border-radius: 0.5rem;
+       border:0.2rem solid green;
+       box-shadow: aqua;
+       font-size: 2rem;
      }
     </style>
 
@@ -29,7 +31,7 @@
 <!-- main part -->
 
 <div class="slides">
-  <h2 style="margin:3rem 2rem; ">Now Check the weather of Your city - <span style="color: aqua;">Just One tap away </span>   </h2>
+  <h1 style="margin:3rem 2rem; ">Now the Weather of Your city - <span style="color: aqua;">Just One tap away </span>   </h1>
   
  
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -56,9 +58,8 @@
 </div>
 </div>
 
-<div class="wth"  >
-   <a class="wt" href="/weather">Check-Weather</a>
-   </div>
+   <a class="wtr" href="/weather">Check-Weather</a>
+
 <!--Footer-->
 
 <div class="foot">
