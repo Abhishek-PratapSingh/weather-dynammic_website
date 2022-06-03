@@ -9,4 +9,4 @@ keeps updating the weather conditons time to time according to the current weath
 <br/>
 <br/>
 <br/>
-Live demo: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Live demo: (https://weather-dynamicwebsite.herokuapp.com/)
